@@ -1,0 +1,8 @@
+int age;
+    cout << "enter your age" << endl;
+    cin >> age;
+    if (age >=18)
+        cout << "you are eligible for voting";
+    else
+        cout << "you are not eligible for voting" << endl << "wait for " << 18-age << "years";
+    return 0;
